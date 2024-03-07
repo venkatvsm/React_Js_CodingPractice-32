@@ -12,17 +12,17 @@
   cursor: pointer;
 }
 .Eventitem_image {
-  width: 230px;
+  width: 280px;
   border-radius: 10px;
 }
 .Eventitem_name {
   color: #f8fafc;
   margin-bottom: 0px;
-  font-size: 32px;
+  font-size: 23px;
+  font-weight: bold;
 }
 .Eventitem_location {
   color: #f8fafc;
-  font-size: 18px;
   margin: 3px;
-  font-size: 18px;
+  font-size: 17px;
 }
