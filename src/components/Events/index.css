@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.bg_container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+}
+.Events_container {
+  background-color: #323f4b;
+  padding: 25px;
+  padding-left: 50px;
+  margin: 0px;
+  width: 70%;
+}
+.Events_heading {
+  color: #f8fafc;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+.Events_list_container {
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.registration_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}

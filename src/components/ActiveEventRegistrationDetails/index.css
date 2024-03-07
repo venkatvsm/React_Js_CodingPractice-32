@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.YetToRegistar_container {
+  text-align: center;
+  width: 100%;
+}
+.YetToRegistar_image {
+  width: 70%;
+}
+.YetToRegistar_para {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 26px;
+  color: #64748b;
+}
+.YetToRegistar_button {
+  background-color: #0967d2;
+  width: 250px;
+  height: 50px;
+  color: #f8fafc;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.register_container {
+  text-align: center;
+  width: 100%;
+}
+.register_image {
+  width: 70%;
+}
+.register_para {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 26px;
+  color: #64748b;
+}
+.registrationClosed_container {
+  text-align: center;
+  width: 100%;
+}
+.registrationClosed_image {
+  width: 70%;
+}
+.registrationClosed_heading {
+  font-size: 30px;
+  color: #323f4b;
+}
+.registrationClosed_para {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 26px;
+  color: #64748b;
+}
+.NoActiveEvent_para{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 26px;
+  color: #64748b;
+  text-align: center;
+  align-self: flex-start;
+}

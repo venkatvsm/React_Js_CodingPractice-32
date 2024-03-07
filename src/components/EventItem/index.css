@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.Eventitem_container {
+  padding: 0px;
+  font-family: 'Roboto';
+  margin: 15px;
+}
+.Eventitem_button {
+  background-color: transparent;
+  text-align: start;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+.Eventitem_image {
+  width: 230px;
+  border-radius: 10px;
+}
+.Eventitem_name {
+  color: #f8fafc;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.Eventitem_location {
+  color: #f8fafc;
+  font-size: 18px;
+  margin: 3px;
+  font-size: 18px;
+}
