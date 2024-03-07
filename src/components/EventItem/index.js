@@ -1,26 +1,44 @@
-// Write your code here
-import './index.css'
-
-const Eventitem = props => {
-  const {eventsList, onRegistrationStatusChanged} = props
-  const {imageUrl, name, location, registrationStatus} = eventsList
-
-  const onclickButton = () => {
-    onRegistrationStatusChanged(registrationStatus)
-  }
-  return (
-    <li className="Eventitem_container">
-      <button
-        className="Eventitem_button"
-        type="button"
-        onClick={onclickButton}
-      >
-        <img src={imageUrl} alt="event" className="Eventitem_image" />
-      </button>
-      <p className="Eventitem_name">{name}</p>
-      <p className="Eventitem_location">{location}</p>
-    </li>
-  )
+/* Write your CSS here */
+.Eventitem_container {
+  padding: 0px;
+  font-family: 'Roboto';
+  margin: 15px;
 }
-
-export default Eventitem
+.Eventitem_button {
+  background-color: transparent;
+  text-align: start;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+.Eventitem_image {
+  width: 200px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .Eventitem_container {
+    width: 45%;
+  }
+  .Eventitem_image {
+    width: 100%;
+  }
+}
+.Eventitem_name {
+  color: #f8fafc;
+  margin-bottom: 0px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.Eventitem_location {
+  color: #f8fafc;
+  margin: 3px;
+  font-size: 16px;
+}
+@media screen and (min-width: 1200px) {
+  .Eventitem_name {
+    font-size: 25px;
+  }
+  .Eventitem_location {
+    font-size: 18px;
+  }
+}
